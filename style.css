@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+    color: darkmagenta;
+}
+
+.texts {
+    color: gray;
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: 15px;
+}
+
+.icons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.flower {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 7px;
+    font-size: 20px;
+}
+
+h3 i {
+    gap: 15px;
+}
+
+.img {
+    margin-top: -150px;
+}
+
+.icons li {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px 15px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.btns button {
+    width: 45%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.btns button1 {
+    width: 45%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    box-shadow: black 0px 2px 8px 2px;
+}
+
+.btns button2 {
+    width: 45%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: blueviolet;
+    box-shadow: black 0px 2px 8px 2px;
+}
+
+.btns p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
